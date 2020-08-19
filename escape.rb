@@ -1,5 +1,5 @@
-g = gets.chomp.to_f
-r = gets.chomp.to_i
+g = ARGV[0].to_f
+r = ARGV[1].to_f
 
 
 velocidad_de_escape = Math.sqrt(2*g*r).truncate(2)
